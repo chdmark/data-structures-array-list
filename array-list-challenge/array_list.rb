@@ -26,5 +26,13 @@ class ArrayList
 		array_list.length
 	end
 
+	def insert(index, element)
+		array_list.insert(index, element)
+	end
+
 
 end
+
+test = ArrayList.new(5)
+
+p test.insert(3, "hello")
