@@ -32,4 +32,10 @@ describe ArrayList do
 			expect(array_list.array_list.length).to eq 6 
 		end
 	end
+
+	context "element at specific index" do 
+		it "should insert the element at the given index" do 
+			expect(array_list.insert(2, "hello")).to match_array([nil, nil, "hello", nil, nil, nil, nil])
+		end
+	end
 end
