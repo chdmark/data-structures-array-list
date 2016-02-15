@@ -33,6 +33,3 @@ class ArrayList
 
 end
 
-test = ArrayList.new(5)
-
-p test.insert(3, "hello")
